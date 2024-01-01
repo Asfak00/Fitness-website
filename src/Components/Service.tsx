@@ -7,7 +7,7 @@ import { TbBuildingEstate } from "react-icons/tb";
 
 const Service = () => {
   return (
-    <section className="w-full max-w-[1400px] mx-auto px-10 my-12">
+    <section className="w-full max-w-[1400px] mx-auto px-10 mt-24 mb-12">
       <div>
         <h2 className="font-[700] text-[35px] text-gray-500 uppercase">
           more than just gym
