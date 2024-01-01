@@ -2,7 +2,7 @@ const Navbar = () => {
   let navItemAnimation =
     "border-b-[2px] border-gray-20 hover:border-gray-500 transition-all duration-300 cursor-pointer ";
   return (
-    <nav className=" bg-gray-20 py-6 px-6 max-w-[1400px] mx-auto flex items-center justify-between w-full">
+    <nav className=" bg-gray-20 py-6 px-10 max-w-[1400px] mx-auto flex items-center justify-between w-full">
       <img src="/Logo.png" alt="logo" className="w-[140px]" />
 
       <ul className="flex items-center gap-8 capitalize text-[1.1rem] font-[400]">

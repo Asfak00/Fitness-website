@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <main className="bg-white flex relative items-center justify-between w-full max-w-[1400px] mx-auto px-12">
+    <main className="bg-white flex relative items-center justify-between w-full max-w-[1400px] mx-auto px-10">
       <img
         src="/EvolveText.png"
         alt="evotext/image"
@@ -12,8 +12,9 @@ const Hero = () => {
         </h1>
         <p className="text-[3rem] font-[400]">evolutionary fitness</p>
         <p className="w-[80%]">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quaerat
-          delectus iure voluptatum voluptates libero tenetur corrupti recusandae
+          Unrivaled Gym. Unparalleled Training Fitness Classes. World Class
+          Studios to get the Body Shapes That you Dream of.. Get Your Dream Body
+          Now.
         </p>
         <div className="flex items-center gap-4 mt-4">
           <button className="py-2 px-6 bg-secondary-500 capitalize text-gray-500 rounded hover:bg-white hover:border-secondary-500 duration-300 transition-all border ">
