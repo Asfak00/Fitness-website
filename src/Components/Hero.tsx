@@ -1,8 +1,13 @@
 const Hero = () => {
   return (
-    <main className="bg-white flex items-center justify-between w-full max-w-[1400px] mx-auto px-6">
-      <div className="w-[50%] flex flex-col gap-6">
-        <h1 className="font-[700] text-[6.5rem] text-gray-500 uppercase leading-[1rem]">
+    <main className="bg-white flex relative items-center justify-between w-full max-w-[1400px] mx-auto px-12">
+      <img
+        src="/EvolveText.png"
+        alt="evotext/image"
+        className=" absolute top-6 left-6 z-10"
+      />
+      <div className="w-[50%] flex flex-col gap-6 ">
+        <h1 className="font-[700] z-30 text-[6.5rem] text-gray-500 uppercase leading-[1rem]">
           evogym
         </h1>
         <p className="text-[3rem] font-[400]">evolutionary fitness</p>
