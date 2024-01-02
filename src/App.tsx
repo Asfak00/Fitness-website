@@ -8,10 +8,12 @@ import Classes from "@/Components/Classes";
 import Testimonials from "@/Components/Testimonials";
 import ContactUs from "@/Components/ContactUs";
 import Footer from "@/Components/Footer";
+import MobileNav from "./Components/MobileNav";
 
 const App = () => {
   return (
-    <div>
+    <div className=" overflow-hidden">
+      <MobileNav />
       <Navbar />
       <Hero />
       <Partner />

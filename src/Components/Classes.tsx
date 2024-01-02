@@ -1,12 +1,18 @@
+import { useEffect } from "react";
+
 import { ClassType } from "@/Shared/Types";
 
 // images
-import image1 from "/image1.png";
-import image2 from "/image2.png";
-import image3 from "/image3.png";
-import image4 from "/image4.png";
-import image5 from "/image5.png";
-import image6 from "/image6.png";
+import image1 from "/Classes/image1.png";
+import image2 from "/Classes/image2.png";
+import image3 from "/Classes/image3.png";
+import image4 from "/Classes/image4.png";
+import image5 from "/Classes/image5.png";
+import image6 from "/Classes/image6.png";
+
+// aos animation
+import "aos/dist/aos.css";
+import AOS from "aos";
 
 const Classes = () => {
   let classes: Array<ClassType> = [
@@ -44,13 +50,21 @@ const Classes = () => {
     },
   ];
 
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    });
+  }, []);
+
   return (
-    <section className="w-full max-w-[1400px] mx-auto px-10 my-24 bg-primary-100 py-12">
-      <div>
-        <h2 className="font-[700] text-[35px] text-gray-500 uppercase">
+    <section
+      id="Classes"
+      className="w-full max-w-[1400px] mx-auto my-12 md:my-24 bg-primary-100 py-8 md:py-12">
+      <div data-aos="fade-down" className="px-6 md:px-10">
+        <h2 className="font-[700] text-[32px] md:text-[35px] text-gray-500 uppercase">
           our classes
         </h2>
-        <p className="w-[55%] text-[0.9rem]">
+        <p className="w-full md:w-[55%] text-[0.9rem]">
           Fringilla a sed at suspendisse ut enim volutpat. Rhoncus vel est
           tellus quam porttitor. Mauris velit euismod elementum arcu neque
           facilisi. Amet semper tortor facilisis metus nibh. Rhoncus sit enim
